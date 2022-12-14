@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root{
+    --Eggshell: #F4F1DE;
+    --Independence:#3D405B;
+    --Green-Sheen: #81B29A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Playfair Display', serif;
+    background-color: var(--Eggshell);
+
+}
+
+header{
+    color: var(--Independence);
+    text-align: center;
+    height: 50px;
+}
+
+main{
+    width: 400px;
+    border: 7px solid var(--Independence);
+    padding: 2%;
+    margin: auto;
+}
+.score-board{
+   border:3px solid var(--Green-Sheen);
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.result{
+    margin: 5px;
+    color: var(--Independence);
+    font-weight: bolder;
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    width: 55px;
+    height: 55px;
+    border: 4px solid var(--Green-Sheen);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#msg{
+    text-align: center;
+    color: var(--Independence);
+    font-weight: bolder;
+}
